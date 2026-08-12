@@ -1,0 +1,2 @@
+outage,bus,kind,vm_pu,limit,excursion,base_vm_pu,delta_from_base
+L 14-15,14,deviation,0.9369,0.05,0.0293,1.0162,-0.0793

@@ -1,0 +1,47 @@
+rank,name,type,topology,from_bus,to_bus,status,category,severity,v_min,v_min_bus,v_max,max_loading,max_loading_branch,max_abs_dv,max_abs_dv_bus,n_voltage,n_undervoltage,n_overvoltage,n_deviation,n_thermal,worst_deviation,n_islanded,islanded_load_mw,exclusion
+1.0,T 18-19,trafo,structural bridge,18,19,ISLANDED,Critical,1000.0,,,,,,,,,,,,,,2.0,680.0,
+2.0,L 15-18,line,structural bridge,15,18,ISLANDED,Critical,1000.0,,,,,,,,,,,,,,4.0,680.0,
+3.0,L 20-21,line,meshed,20,21,VIOLATION,Critical,70.4,0.982,30.0,1.0636,157.5,L 22-23,0.0473,20.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,
+4.0,L 12-13,line,meshed,12,13,VIOLATION,Warning,35.1,0.982,30.0,1.0636,132.5,L 5-10,0.0069,13.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,
+5.0,L 9-12,line,meshed,9,12,VIOLATION,Warning,20.0,0.982,30.0,1.0636,111.8,L 5-10,0.0137,12.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,
+6.0,L 22-23,line,meshed,22,23,VIOLATION,Warning,15.4,0.982,30.0,1.0636,111.3,L 15-20,0.0123,20.0,0.0,0.0,0.0,0.0,2.0,,0.0,0.0,
+7.0,L 5-10,line,meshed,5,10,VIOLATION,Warning,13.1,0.982,30.0,1.0636,106.0,L 3-13,0.0084,5.0,0.0,0.0,0.0,0.0,3.0,,0.0,0.0,
+8.0,L 15-20,line,meshed,15,20,VIOLATION,Warning,10.4,0.982,30.0,1.0636,110.4,L 22-23,0.011,23.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,
+9.0,L 9-10,line,meshed,9,10,VIOLATION,Warning,7.4,0.982,30.0,1.0636,107.4,L 9-12,0.0158,10.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,
+10.0,L 25-26,line,meshed,25,26,VIOLATION,Warning,6.3,0.982,30.0,1.074,106.3,L 1-2,0.038,26.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,
+11.0,L 3-13,line,meshed,3,13,VIOLATION,Warning,3.3,0.982,30.0,1.0636,103.3,L 5-10,0.012,3.0,0.0,0.0,0.0,0.0,1.0,,0.0,0.0,
+12.0,L 14-15,line,meshed,14,15,VIOLATION,Warning,1.47,0.9369,14.0,1.0636,80.6,T 9-31,0.0793,14.0,1.0,0.0,0.0,1.0,0.0,0.0793,0.0,0.0,
+13.0,T 11-12,trafo,meshed,11,12,NORMAL,OK,0.0,0.978,11.0,1.0636,77.0,T 9-31,0.0228,11.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+14.0,T 11-10,trafo,meshed,11,10,NORMAL,OK,0.0,0.9794,11.0,1.0636,77.1,T 9-31,0.0214,11.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+15.0,L 8-38,line,meshed,8,38,NORMAL,OK,0.0,0.982,30.0,1.0636,77.3,T 9-31,0.0148,8.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+16.0,L 7-8,line,meshed,7,8,NORMAL,OK,0.0,0.9734,7.0,1.0636,78.8,T 9-31,0.0245,7.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+17.0,L 6-7,line,meshed,6,7,NORMAL,OK,0.0,0.982,30.0,1.0636,77.2,T 9-31,0.0037,7.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+18.0,L 5-6,line,meshed,5,6,NORMAL,OK,0.0,0.974,6.0,1.0636,86.7,L 4-7,0.0244,6.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+19.0,L 4-7,line,meshed,4,7,NORMAL,OK,0.0,0.982,30.0,1.0636,86.5,L 5-6,0.0138,7.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+20.0,L 4-5,line,meshed,4,5,NORMAL,OK,0.0,0.982,30.0,1.0636,91.5,L 5-6,0.0127,4.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+21.0,L 3-4,line,meshed,3,4,NORMAL,OK,0.0,0.982,30.0,1.0636,83.0,L 3-13,0.0062,3.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+22.0,L 27-28,line,meshed,27,28,NORMAL,OK,0.0,0.982,30.0,1.0636,87.2,L 25-28,0.0247,27.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+23.0,L 25-28,line,meshed,25,28,NORMAL,OK,0.0,0.982,30.0,1.0636,87.1,L 27-28,0.0188,27.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+24.0,L 25-27,line,meshed,25,27,NORMAL,OK,0.0,0.982,30.0,1.0636,77.2,T 9-31,0.0151,27.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+25.0,L 24-25,line,meshed,24,25,NORMAL,OK,0.0,0.982,30.0,1.0636,77.2,T 9-31,0.0103,25.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+26.0,L 21-22,line,meshed,21,22,NORMAL,OK,0.0,0.982,30.0,1.0636,77.1,T 9-31,0.0099,22.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+27.0,L 2-3,line,meshed,2,3,NORMAL,OK,0.0,0.9816,3.0,1.0636,78.8,T 9-31,0.0228,3.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+28.0,L 2-17,line,meshed,2,17,NORMAL,OK,0.0,0.982,30.0,1.0636,77.2,T 9-31,0.0032,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+29.0,L 16-26,line,meshed,16,26,NORMAL,OK,0.0,0.982,30.0,1.0636,77.2,T 9-31,0.0054,16.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+30.0,L 16-17,line,meshed,16,17,NORMAL,OK,0.0,0.982,30.0,1.0636,83.8,L 1-2,0.0139,17.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+31.0,L 15-23,line,meshed,15,23,NORMAL,OK,0.0,0.982,30.0,1.0798,77.4,T 9-31,0.0418,23.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+32.0,L 15-16,line,meshed,15,16,NORMAL,OK,0.0,0.982,30.0,1.0636,85.0,L 3-13,0.0058,14.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+33.0,L 13-14,line,meshed,13,14,NORMAL,OK,0.0,0.982,30.0,1.0636,77.6,T 9-31,0.0066,13.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+34.0,L 1-24,line,meshed,1,24,NORMAL,OK,0.0,0.982,30.0,1.0636,81.3,L 25-26,0.0168,24.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+35.0,L 1-2,line,meshed,1,2,NORMAL,OK,0.0,0.982,30.0,1.0636,78.4,T 9-31,0.0299,2.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+36.0,L 0-38,line,meshed,0,38,NORMAL,OK,0.0,0.982,30.0,1.0636,77.1,T 9-31,0.0033,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+37.0,L 0-1,line,meshed,0,1,NORMAL,OK,0.0,0.982,30.0,1.0636,90.9,L 1-2,0.0117,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,
+,T 9-31,trafo,generator step-up,9,31,EXCLUDED,Excluded,,,,,,,,,,,,,,,,,sole connection to generator bus 31
+,T 5-30,trafo,generator step-up,5,30,EXCLUDED,Excluded,,,,,,,,,,,,,,,,,sole connection to generator bus 30
+,T 28-37,trafo,generator step-up,28,37,EXCLUDED,Excluded,,,,,,,,,,,,,,,,,sole connection to generator bus 37
+,T 24-36,trafo,generator step-up,24,36,EXCLUDED,Excluded,,,,,,,,,,,,,,,,,sole connection to generator bus 36
+,T 21-34,trafo,generator step-up,21,34,EXCLUDED,Excluded,,,,,,,,,,,,,,,,,sole connection to generator bus 34
+,T 19-33,trafo,generator step-up,19,33,EXCLUDED,Excluded,,,,,,,,,,,,,,,,,sole connection to generator bus 33
+,T 18-32,trafo,generator step-up,18,32,EXCLUDED,Excluded,,,,,,,,,,,,,,,,,sole connection to generator bus 32
+,T 1-29,trafo,generator step-up,1,29,EXCLUDED,Excluded,,,,,,,,,,,,,,,,,sole connection to generator bus 29
+,L 22-35,line,generator step-up,22,35,EXCLUDED,Excluded,,,,,,,,,,,,,,,,,sole connection to generator bus 35
